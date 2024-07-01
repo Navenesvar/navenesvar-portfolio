@@ -1,0 +1,56 @@
+.navbar {
+    background-color: #ffffff;
+    padding: 15px 0;
+    position: fixed;
+    filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.5));
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+  .colorMode {
+    position: absolute;
+    right: 1;
+    width: 25px;
+  }
+  
+  .colorMode:hover {
+    cursor: pointer;
+  }
+  
+  .navList {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navItem {
+    margin: 0 20px;
+  }
+  
+  .navLink {
+    color: #333;
+    text-decoration: none;
+    font-size: 20px; /* Increase font size */
+  }
+  
+  .navLink:hover {
+    color:crimson;
+  }
+  
+  /* Dark theme styling */
+  [data-theme='dark'] .navbar {
+    background-color: #222;
+    filter: drop-shadow(3px 3px 3px rgba(185, 172, 172, 0.5));
+  }
+  
+  [data-theme='dark'] .navLink {
+    color: #ccc;
+  }
+  
+  [data-theme='dark'] .navLink:hover {
+    color:gold;
+  }
+  
