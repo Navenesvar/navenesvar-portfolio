@@ -11,10 +11,10 @@ function Projects() {
       link: 'https://github.com/Navenesvar/Naanmudhalvan_Project_Submission_Navenesvar-K_4040_LICET/',
     },
     {
-      title: 'ExamEnroll',
-      description: 'An exam registration system',
+      title: 'Quizzer',
+      description: 'A Quiz web application',
       techStack: ['Java', 'SpringBoot','HTML','CSS', 'MySQL'],
-      link: 'https://github.com/Navenesvar/ExamEnroll/',
+      link: 'https://github.com/Navenesvar/Quizzer/',
     },
     {
       title: 'SpeechToText',
