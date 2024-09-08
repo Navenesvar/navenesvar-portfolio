@@ -34,11 +34,12 @@
     align-items: center;
     gap: 20px;
     flex-direction: column;
+    margin-bottom: 40px; 
   }
   
   .image {
     width: 100%;
-    max-width: 450px; /* Increase the maximum width of the image */
+    max-width: 450px; 
     border-radius: 10px;
   }
   
@@ -77,7 +78,7 @@
   
     .textContent {
       align-items: flex-start;
-      max-width: 500px; /* Ensure the text content has a maximum width */
+      max-width: 500px;
     }
   }
   

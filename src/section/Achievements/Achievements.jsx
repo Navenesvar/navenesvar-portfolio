@@ -22,7 +22,9 @@ function Achievements() {
           </p>
         </div>
       </div>
-
+      <div>
+        
+      </div>
       <div className={styles.achievementCard}>
         <img src={rankImage} width='100%' alt="2nd Rank Holder" className={styles.image} />
         <div className={styles.textContent}>
