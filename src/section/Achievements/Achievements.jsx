@@ -15,8 +15,8 @@ function Achievements() {
       <div className={styles.achievementCard}>
         <img src={hackathonImage} width='100%' alt="Hackathon" className={styles.image} />
         <div className={styles.textContent}>
-          <h2 className={styles.achievementTitle}>Socio Tech Hackathon 2024</h2>
-          <p className={styles.date}>24-Hour Hackathon - 29th and 30th Jan 2024, Coimbatore District</p>
+          <h2 className={styles.achievementTitle}>Socio-Tech Hackathon 2024</h2>
+          <p className={styles.date}>24-Hour Hackathon - 29th and 30th January 2024, Coimbatore District</p>
           <p className={styles.description}>
             Participated with a team of 5 in the Socio Tech Hackathon 2024 at KPR College of Arts and Science Research. Competing against 700+ teams, we were honored to be among the finalists. Our project focused on developing an innovative web and mobile-based tool for mapping the water supply network in Coimbatore, addressing critical infrastructure needs with technology.
           </p>
@@ -31,7 +31,7 @@ function Achievements() {
           <h2 className={styles.achievementTitle}>2nd Rank Holder - Department of CSE (2022-2023)</h2>
           <p className={styles.date}>Academic Year 2022-2023, BE in CSE</p>
           <p className={styles.description}>
-            Achieved 2nd rank in the Department of Computer Science and Engineering for the academic year 2022-2023, showcasing dedication to academic excellence and consistent performance in core subjects.
+            Secured 2nd rank in the Department of Computer Science and Engineering for the academic year 2022-2023 in the Anna University Examinations, showcasing dedication to academic excellence and consistent performance in core subjects.
           </p>
         </div>
       </div>
