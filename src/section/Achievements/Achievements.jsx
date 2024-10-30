@@ -1,8 +1,9 @@
 import React from 'react';
 import styles from './Achievements.module.css';
 import { useTheme } from '../../common/ThemeContext';
-import hackathonImage from '../../assets/socio1.jpg'; // Add your image here
-import rankImage from '../../assets/rank.png'; // Add your image for 2nd rank holder achievement
+import hackathonImage from '../../assets/socio1.jpg';
+import rankImage from '../../assets/rank.png';
+import codeathonImage from '../../assets/codeathon.png'; // Add image for CODEATHON achievement
 
 function Achievements() {
   const { theme } = useTheme();
@@ -11,7 +12,16 @@ function Achievements() {
     <section id="achievements" className={styles.container}>
       <br /><br /><br />
       <h1 className='sectionTitle'>Achievements</h1>
-      
+      <div className={styles.achievementCard}>
+        <img src={codeathonImage} width='100%' alt="CODEATHON at TECHNEXUS" className={styles.image} />
+        <div className={styles.textContent}>
+          <h2 className={styles.achievementTitle}>Second Place - CODEATHON at TECHNEXUS</h2>
+          <p className={styles.date}>Organized by IEEE LICET Student Branch Chapter - Chennai</p>
+          <p className={styles.description}>
+            Excited to share that my team and I secured Second Place and won a cash prize of ₹2500 in the CODEATHON at TECHNEXUS organized by the IEEE LICET Student Branch Chapter and the Department of ECE in association with the IEEE Photonics Society Madras section at Loyola-ICAM College of Engineering and Technology, Chennai! 🚀 The event challenged us with rounds of technical MCQs, coding problems, and a final round of problem solving.
+          </p>
+        </div>
+      </div>
       <div className={styles.achievementCard}>
         <img src={hackathonImage} width='100%' alt="Hackathon" className={styles.image} />
         <div className={styles.textContent}>
@@ -22,9 +32,7 @@ function Achievements() {
           </p>
         </div>
       </div>
-      <div>
-        
-      </div>
+
       <div className={styles.achievementCard}>
         <img src={rankImage} width='100%' alt="2nd Rank Holder" className={styles.image} />
         <div className={styles.textContent}>
@@ -35,6 +43,7 @@ function Achievements() {
           </p>
         </div>
       </div>
+
     </section>
   );
 }

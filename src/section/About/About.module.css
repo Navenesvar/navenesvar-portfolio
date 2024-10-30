@@ -4,7 +4,7 @@
     justify-content: center;
     gap: 20px;
     text-align: center;
-    height: 100vh; /* Corrected typo */
+    height: 100vh; 
     min-height: 500px;
   
     .about {

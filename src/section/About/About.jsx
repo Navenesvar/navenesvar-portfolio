@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import styles from './About.module.css';
 import aboutImg from '../../assets/me-modified.png';
-import CV from '../../assets/NAVENESVAR K (24).pdf';
+import CV from '../../assets/NAVENESVAR K (25).pdf';
 import { useTheme } from '../../common/ThemeContext';
 
 function About() {
